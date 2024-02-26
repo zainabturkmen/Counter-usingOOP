@@ -1,1 +1,3 @@
- 
+ function Counter(element, value){
+    
+ }
