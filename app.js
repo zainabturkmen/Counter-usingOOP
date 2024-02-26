@@ -5,5 +5,5 @@
  const firstCounter = new Counter()
 
  function getElement (selection){
-    const element = document
+    const element = document.querySelector(selection)
  }
