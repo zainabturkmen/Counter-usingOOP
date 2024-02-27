@@ -17,6 +17,14 @@
     this.decreaseBtn = element.querySelector(".decrease");
     this.valueDOM = element.querySelector(".value");
     this.valueDOM.textContent = this.value;
+
+    // bind this to all function
+    this.increase = this.increase.bind(this)
+    this.descrease = this.decrease.bind(this)
+    this.reset = this.reset.bind(this)
+
+    this.increaseBtn.addEventListner("click", this.increase);
+    this.decreaseBtn.addEventListner("click", this.decrease);
  }
 
  Counter.prototype.increase = function(){
