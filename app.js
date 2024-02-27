@@ -3,7 +3,9 @@
     this.value = value;
     this.resetBtn = element.querySelector(".reset");
     this.increaseBtn = element.querySelector(".increase");
-    this.decrease = element.querySelector(".decrease")
+    this.decrease = element.querySelector(".decrease");
+    this.valueDOM = element.querySelector(".value");
+    this.valueDOM.textContent = this.value;
  }
 
  const firstCounter = new Counter(getElement(".first-counter"), 100);
