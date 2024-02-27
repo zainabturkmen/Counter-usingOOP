@@ -19,6 +19,10 @@
     this.valueDOM.textContent = this.value;
  }
 
+ Counter.prototype.increase = function(){
+     
+ }
+
  const firstCounter = new Counter(getElement(".first-counter"), 300);
  const secondCounter = new Counter(getElement(".second-counter"), 200);
 
