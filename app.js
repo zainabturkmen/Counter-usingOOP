@@ -36,4 +36,4 @@
  const secondCounter = new Counter(getElement(".second-counter"), 200);
 
 
-firstCounter.increase
+firstCounter.increase()
