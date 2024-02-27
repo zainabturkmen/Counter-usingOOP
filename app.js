@@ -8,7 +8,7 @@
     this.valueDOM.textContent = this.value;
  }
 
- const firstCounter = new Counter(getElement(".first-counter"), 100);
+ const firstCounter = new Counter(getElement(".first-counter"), 300);
  const secondCounter = new Counter(getElement(".second-counter"), 200);
 
  function getElement (selection){
