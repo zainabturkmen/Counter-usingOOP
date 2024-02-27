@@ -23,8 +23,9 @@
     this.descrease = this.decrease.bind(this)
     this.reset = this.reset.bind(this)
 
-    this.increaseBtn.addEventListner("click", this.increase);
-    this.decreaseBtn.addEventListner("click", this.decrease);
+    this.increaseBtn.addEventListener("click", this.increase);
+    this.decreaseBtn.addEventListener("click", this.descrease);
+    this.resetBtn.addEventListener("click", this.reset);
  }
 
  Counter.prototype.increase = function(){
@@ -43,8 +44,3 @@
  const firstCounter = new Counter(getElement(".first-counter"), 100);
  const secondCounter = new Counter(getElement(".second-counter"), 200);
 
-
-firstCounter.increase()
-firstCounter.increase()
-firstCounter.reset()
-secondCounter.decrease()
