@@ -38,5 +38,5 @@
 
 firstCounter.increase()
 firstCounter.increase()
-firstCounter.increase()
+firstCounter.reset()
 secondCounter.decrease()
