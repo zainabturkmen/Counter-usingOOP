@@ -3,7 +3,7 @@
     this.value = value;
     this.resetBtn = element.querySelector(".reset");
     this.increaseBtn = element.querySelector(".increase");
-    
+    this.decrease = element.querySelector(".decrease")
  }
 
  const firstCounter = new Counter(getElement(".first-counter"), 100);
